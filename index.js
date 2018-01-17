@@ -18,6 +18,8 @@ return `Happy ${holiday}, ${name}!`
 
 happyHolidayTo(`Independence Day`,`you`)
 
-function holidayCountdownwn(holiday,days){
+function holidayCountdown(holiday,days){
   return "It's ${days} days until ${holiday}";
 }
+
+holidayCountdown()
